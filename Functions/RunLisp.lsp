@@ -26,3 +26,7 @@
   )
   (princ)
 )
+
+(princ "\nType 'RL' to run and save a specific lisp.")
+(princ "\nType 'RLL' to run last lisp.")
+(princ)

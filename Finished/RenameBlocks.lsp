@@ -1,4 +1,4 @@
-(defun c:RenameBlocksPS ( / mode newBaseName prefix suffix ss i ent ename oldname newname renamedList blkdef entList nestedFound)
+(defun c:RenameBlocks ( / mode newBaseName prefix suffix ss i ent ename oldname newname renamedList blkdef entList nestedFound)
 
   ;; Choose rename mode
   (initget "PrefixSuffix FullName")
@@ -87,7 +87,7 @@
   (princ)
 )
 
-(defun c:Ren () (c:RenameBlocksPS))
+(defun c:Ren () (c:RenameBlocks))
 
 ;; Prompt for the command in the AutoCAD command line
 (princ "\nType 'Ren' to run the command 'RenameBlocksPS'.")
