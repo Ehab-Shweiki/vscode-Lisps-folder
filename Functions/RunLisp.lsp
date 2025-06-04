@@ -1,4 +1,4 @@
-(setq folderpath "D:\\Mine\\vscode Lisps folder\\developing\\dummy.lsp")
+(setq folderpath "D:\\Mine\\vscode Lisps folder\\finished\\dummy.lsp")
 ;--------------------------------;
 
 (defun c:RL ( / file ) ; RL: Run Lisp 
